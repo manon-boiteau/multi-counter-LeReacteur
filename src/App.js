@@ -35,12 +35,14 @@ function App() {
           Add counter
         </button>
       </div>
+      <div className="container">
+        {counter.map((count, index) => {
+          return (
+            <Counter counter={counter} setCounter={setCounter} index={index} />
+          );
+        })}
+      </div>
 
-      {counter.map((count, index) => {
-        return (
-          <Counter counter={counter} setCounter={setCounter} index={index} />
-        );
-      })}
       <Footer />
     </>
   );

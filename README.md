@@ -11,6 +11,7 @@
 - Responsive
 
 ![Multi-counter desktop](src/assets/img/multi-counter-desktop.png)
+![Multi-counter tablette](src/assets/img/multi-counter-tablette.png)
 ![Multi-counter mobile](src/assets/img/multi-counter-mobile.png)
 
 ## Languages
