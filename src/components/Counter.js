@@ -1,7 +1,7 @@
 const Counter = ({ counter, setCounter, index }) => {
   return (
     <div className="wrapper bloc-2">
-      <div className="hello">
+      <div>
         <button
           className="btn-minus"
           index={index}
